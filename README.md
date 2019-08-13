@@ -16,9 +16,11 @@ http://3.120.187.24/
 - python-dev
 
 #### item-catalog clone
- - On the project's venv:
+On the project's venv:
  - psycopg2
  - flask
+ - flask-login
+ - flask-dance
  - ...
 
 ## Configuration:
