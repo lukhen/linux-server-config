@@ -15,11 +15,11 @@ http://3.120.187.24/
 - libapache2-mod-wsgi-py3
 - python-dev
 
-### item-catalog clone
-On the project's venv:
-- psycopg2
-- flask
-- ...
+- item-catalog clone
+-- On the project's venv:
+-- psycopg2
+-- flask
+-- ...
 
 ## Configuration:
 1. Added grader user with sudo access.
