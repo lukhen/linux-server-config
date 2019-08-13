@@ -25,8 +25,9 @@ On the project's venv:
 1. Added grader user with sudo access.
 2. Disabled ssh logging for the root user.
 3. Changed ssh port to 2200.
-4. Disabled password authenitaction.
-5. Configured apache to serve item-catalog app (/etc/apache2/sites-available/item-catalog.conf file)
+4. Disabled password authentiaction.
+5. Configured UFW firewall to accept only on 22, 2200 (ssh), 80 (tcp), 123 (ntp).
+6. Configured apache to serve item-catalog app (/etc/apache2/sites-available/item-catalog.conf file)
 
 ## Third-party resources:
 https://www.codementor.io/abhishake/minimal-apache-configuration-for-deploying-a-flask-app-ubuntu-18-04-phu50a7ft
