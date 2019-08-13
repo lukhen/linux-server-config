@@ -28,7 +28,7 @@ On the project's venv:
 2. Disabled ssh logging for the root user.
 3. Changed ssh port to 2200.
 4. Disabled password authentiaction.
-5. Configured UFW firewall to accept only on 22, 2200 (ssh), 80 (tcp), 123 (ntp).
+5. Configured UFW firewall to accept only on 2200 (ssh), 80 (http), 123 (ntp).
 6. Configured apache to serve item-catalog app (/etc/apache2/sites-available/item-catalog.conf file)
 
 ## Third-party resources:
